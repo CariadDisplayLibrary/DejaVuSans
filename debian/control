@@ -1,0 +1,15 @@
+Source: libdisplaycore-font-dejavusans
+Section: libraries
+Priority: extra
+Maintainer: Matt Jenkins <matt@majenko.co.uk>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+
+Package: libdisplaycore-font-dejavusans
+Section: libraries
+Architecture: all
+XBSC-Group: DisplayCore
+XBSC-Subgroup: Fonts
+Depends: libdisplaycore-core
+Provides: DejaVuSans.h
+Description: DejaVu Sans-Serif font for DisplayCore
